@@ -9,5 +9,5 @@ module.exports = app => {
     tile_data: String
   });
 
-  return mongoose.model("tiles_landuse", TileSchema, "tiles_landuse");
+  return mongoose.model("google_img", TileSchema, "google_img");
 };
